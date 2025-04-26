@@ -17,7 +17,7 @@ public class ReportCard{
     System.out.println("Enter your valid score: ");
     int score = input.nextInt();
     
-    for(count = 1; count <= 9; count++){
+    for(count = 1; count <= 10; count++){
 
       if(score < 0 || score > 100){
         System.out.print("Invalid input. Try again");
@@ -72,5 +72,6 @@ public class ReportCard{
         }
       }
     }
+    System.out.printf("Invalid inputs: %d%nValid inputs: %d%nScore count Grade A: %d%nScore count Grade B: %d%nScore count Grade C: %d%nScore count Grade D: %d%nScore count Grade F: %d%n", countInv, countVal, countA, countB, countC, countD, countF);
   }
 }
