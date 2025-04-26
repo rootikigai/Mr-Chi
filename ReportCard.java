@@ -13,12 +13,11 @@ public class ReportCard{
     int countD = 0;
     int countF = 0;
 
-    for(count = 1; count <= 10; count++){
+    for(count = 1; count <= 10; count++){//possible I can change this count range from a for loop to a while loop and have a have a nested for loop to capture 10 valid scores "countVal"??? Priority: Try later!
     System.out.println("Enter your valid score: ");
     int score = input.nextInt();
 
       if(score >= 0 && score <= 100){
-        countVal++;
 
 /*
 80-100 A
@@ -30,31 +29,26 @@ public class ReportCard{
 
         switch(score/10){
           case 8, 9, 10: System.out.println("A");
-            case 11: System.out.print("Enter another score: ");
                       score = input.nextInt();
                       countA++;
                       countVal++;
                       break;
           case 7: System.out.println("B");
-            case 12: System.out.print("Enter another score: ");
                       score = input.nextInt();
                       countB++;
                       countVal++;
                       break;
           case 6: System.out.println("C");
-            case 13: System.out.print("Enter another score: ");
                       score = input.nextInt();
                       countC++;
                       countVal++;
                       break;
           case 5: System.out.println("D");
-            case 14: System.out.print("Enter another score: ");
                       score = input.nextInt();
                       countD++;
                       countVal++;
                       break;
           case 4, 3, 2, 1: System.out.println("F");
-            case 15: System.out.print("Enter another score: ");
                       score = input.nextInt();
                       countF++;
                       countVal++;
