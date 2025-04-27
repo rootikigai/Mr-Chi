@@ -30,7 +30,7 @@ Select Menu (Enter corresponding number): """;
 4 => Erase\t\t9 => Speed Dials
 5 => Edit\t\t10=> Voice Tags
 
-Select Phone Book Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
           System.out.print(displayPhoneBook);
           int phoneBookMenu = input.nextInt();
 
@@ -63,7 +63,7 @@ Select Phone Book Menu (Enter corresponding number): """;
 1 => Type of View
 2 => Memory Status
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.print(displayPhoneBookOptions);
                 int phoneBookOptions = input.nextInt();
 
@@ -131,7 +131,7 @@ Select Menu (Enter corresponding number): """;
 1 => Set 1
 2 => Common
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.print(displayMessageSettingsMenu);
                 int messageSettingsMenu = input.nextInt();
 
@@ -139,12 +139,12 @@ Select Options Menu (Enter corresponding number): """;
                     case 1://SET 1 MENU
                       String displaySet1Menu = """
 
-\t\t___Message Settings___
+\t\t___Set 1___
 1 => Message Centre Number
 2 => Messages Sent As
 3 => Message Validity
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                       System.out.print(displaySet1Menu);
                       int set1Menu = input.nextInt();
 
@@ -167,12 +167,12 @@ Select Options Menu (Enter corresponding number): """;
                     case 2://COMMON MENU
                       String displayCommonMenu = """
 
-\t\t___Message Settings___
+\t\t___Common Menu___
 1 => Delivery Reports
 2 => Reply Via Same Centre
 3 => Character Support
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                       System.out.print(displayCommonMenu);
                       int commonMenu = input.nextInt();
 
@@ -225,7 +225,7 @@ Select Options Menu (Enter corresponding number): """;
 3 => Dialled Numbers\t\t\t7 => Call Cost Settings
 4 => Picture Messages\t\t8 => Prepaid Credit
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
           System.out.print(displayCallRegisterMenu);
           int callRegisterMenu = input.nextInt();
 
@@ -251,7 +251,7 @@ Select Options Menu (Enter corresponding number): """;
 3 => Received Calls' Duration
 4 => Dialled Calls' Duration
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.print(displayShowCallDurationMenu);
                 int showCallDurationMenu = input.nextInt();
 
@@ -349,7 +349,7 @@ Select Menu (Enter corresponding number): """;
 3 => Security Settings
 4 => Restore Factory Settings
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
           System.out.println(displaySettingsMenu);
           int settingsMenu = input.nextInt();
 
@@ -362,7 +362,7 @@ Select Options Menu (Enter corresponding number): """;
 2 => Speed Dialling\t\t\t5 => Phone Line In Use
 3 => Call Waiting Options\t\t\t6 => Automatic Answer
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.println(displayCallSettingsMenu);
                 int callSettingsMenu = input.nextInt();
 
@@ -396,7 +396,7 @@ Select Options Menu (Enter corresponding number): """;
 2 => Cell Info Display\t\t\t5 => Lights
 3 => Welcome Note\t\t\t6 => Confirm SIM Service Actions
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.println(displayPhoneSettingsMenu);
                 int phoneSettingsMenu = input.nextInt();
 
@@ -433,7 +433,7 @@ Select Options Menu (Enter corresponding number): """;
 2 => Call Barring Service\t\t\t5 => Phone Security
 3 => Fixed Dialling\t\t\t6 => Change Access Codes
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
                 System.out.println(displaySecuritySettingsMenu);
                 int securitySettingsMenu = input.nextInt();
 
@@ -489,7 +489,7 @@ Select Options Menu (Enter corresponding number): """;
 2 => Clock Settings\t\t\t5 => Countdown Timer
 3 => Date Setting\t\t\t6 => Auto Update of Date and Time
 
-Select Options Menu (Enter corresponding number): """;
+Select Menu (Enter corresponding number): """;
           System.out.println(displayClockMenu);
           int clockMenu = input.nextInt();
 
@@ -507,7 +507,7 @@ Select Options Menu (Enter corresponding number): """;
                 System.out.println("Stopwatch");
                 break;
               case 5:
-                System.out.println("COuntdown Timer");
+                System.out.println("Countdown Timer");
                 break;
               case 6:
                 System.out.println("Auto Update of Date and Time");
