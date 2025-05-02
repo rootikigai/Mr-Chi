@@ -1,5 +1,5 @@
 /*PseudoCode
-Create new scanner called input
+Instantiate new scanner called input
 Initialize variables: p, m, r and n (where they respectively mean Principal, Monthly payments value, Annual Interest Rate and Loan duration) and assign value 0
 collect input for p
 collect input for r
@@ -12,7 +12,7 @@ go back to the method body and declare variables num for numerator and denom for
 numerator: Principal value multiplied by monthly rate multiplied by the value of 1 + monthly rate raised to the power of the loan duration in months
 denominator: the value of 1 + monthly rate raised to the power of the loan duration in months, all minus 1
 outside the else statement, calculate for m: m is equal to num divided by denom
-print the value of m
+Display the value of m
 
 */
 import java.util.Scanner;
@@ -42,7 +42,7 @@ public class MortgageCalc{
       m = p / monN;
     }
     else{
-      num = (p * monR * Math.pow((1 + monR), monN)); //fix here
+      num = (p * monR * Math.pow((1 + monR), monN));
       denom = (Math.pow(1 + monR, monN) - 1);
     }
 		m = num / denom;
