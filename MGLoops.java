@@ -15,7 +15,7 @@ public class MGLoops{
 	    System.out.print("Guess a number between 1 and 10: ");
 		    number = guess.nextInt();
 
-        if (number == 0) {
+        if (number == 0 || number > 10) {
           System.out.println("Invalid input! Try again.");
            continue;//Good to find out this exists!
         }
