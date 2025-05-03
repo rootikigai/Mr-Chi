@@ -45,4 +45,14 @@ public class Kata{
     }
     return false;
   }
+
+  //Come back to isPalindrome
+
+  public static long factorialOf(int num){
+    int factorial = 1;
+    for(int i = num; i > 0; i--){
+     factorial *= i;
+    }
+  return factorial;
+  }
 }
