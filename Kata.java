@@ -7,16 +7,23 @@ public class Kata{
   public static boolean isPrimeNum(int num){
       for(int i = 2;i * i <= num; i++){
         if(num % i == 0){
-          return false; //why stress typing !true...not stress though. You'd still tap the keyboard 5 times for each of 'em. No!...6 times for !true, 'cause of the shift key and 1 to get '!'. Mtcheew...ignore my thoughts!!!
+          return false;
         }
       }
       return true;
   }
 
-  public static int posDiff(int a, int b){    
+  public static int subtract(int a, int b){    
     if(a < b){
         return -(a - b);
     }
     else return a - b;
+  }
+
+  public static float divide(int a, int b){
+    if(b == 0){
+      return 0;//come back to this...it still returns 0.0
+    }
+    else return (float) a / b;
   }
 }
