@@ -13,7 +13,10 @@ public class Kata{
       return true;
   }
 
-  /*public static int posDiff(){
-
-  }*/
+  public static int posDiff(int a, int b){    
+    if(a < b){
+        return -(a - b);
+    }
+    else return a - b;
+  }
 }
