@@ -55,4 +55,8 @@ public class Kata{
     }
   return factorial;
   }
+
+  public static long squareOf(int num){
+  return num * num;
+  }
 }
